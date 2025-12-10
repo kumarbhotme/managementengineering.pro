@@ -1,2 +1,2 @@
 # managementengineering.pro
-A handbook for technical leaders in software engineering
+A scientific knowledge base for the practical applications of Engineering Managers
