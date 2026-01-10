@@ -1,0 +1,57 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+/* put these BEFORE the @import lines */
+$serif      : "inter-body", "Inter", Georgia, Times, serif;
+$sans-serif : "inter-body", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+$monospace  : "inter-body", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* optionally point the theme’s global families at your stacks */
+$global-font-family : $sans-serif;
+$header-font-family : $sans-serif;
+$caption-font-family: $serif;
+
+.baloo-2-title {
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.inter-body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.site-title,
+.site-title:visited {
+  font-family: "Baloo 2", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f4ac31;
+}
+
+.site-title:hover {
+  color: #f4ac31;
+}
+
+h1, h2, h2 a, h3, h4 {
+  font-family: "Baloo 2", sans-serif;
+}
+
+.red {
+  color: red;
+}
+
+p {
+  letter-spacing: 0.025em;
+}
