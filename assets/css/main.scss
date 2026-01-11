@@ -55,3 +55,21 @@ h1, h2, h2 a, h3, h4 {
 p {
   letter-spacing: 0.025em;
 }
+
+.site-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Optional fine-tuning */
+@media (max-width: 768px) {
+  .site-logo img {
+    max-height: 40px;
+  }
+}
+
+@media (min-width: 769px) {
+  .site-logo img {
+    max-height: 60px;
+  }
+}
