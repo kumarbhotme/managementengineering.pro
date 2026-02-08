@@ -31,7 +31,7 @@ analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-M8RCHZYGN1"
-    anonymize_ip: false
+    anonymize_ip: true
 
 # Build settings
 # theme: minimal-mistakes-jekyll
