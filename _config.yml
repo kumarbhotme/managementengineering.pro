@@ -27,6 +27,11 @@ url: "https://managementengineering.pro" # the base hostname & protocol for your
 twitter_username: managementengg
 logo: "/assets/images/0.5x/logo@0.5x.png"
 
+# Web Analytics Settings
+analytics:
+  google:
+    id: G-M8RCHZYGN1
+
 # Build settings
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
@@ -34,9 +39,7 @@ minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
-analytics:
-  google:
-    id: G-M8RCHZYGN1
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
