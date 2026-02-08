@@ -33,15 +33,13 @@ $caption-font-family: $serif;
 }
 
 .site-title,
-.site-title:visited {
+.site-title:visited,
+.site-title:hover {
   font-family: "Baloo 2", sans-serif;
   font-size: 2rem;
   font-weight: 600;
   color: #f4ac31;
-}
-
-.site-title:hover {
-  color: #f4ac31;
+  transform: scale(1, 1.25);
 }
 
 h1, h2, h2 a, h3, h4 {
