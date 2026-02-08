@@ -30,7 +30,7 @@ logo: "/assets/images/0.5x/logo@0.5x.png"
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: G-M8RCHZYGN1
+    tracking_id: "G-M8RCHZYGN1"
     anonymize_ip: false
 
 # Build settings
