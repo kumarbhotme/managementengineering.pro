@@ -20,8 +20,7 @@
 
 title: Management Engineering
 email: podcast@managementengineering.pro
-description: >- # this means to ignore newlines until "baseurl:"
-  Engineering is the practical application of science. Just like Sales Engineering or Quality Engineering, the Management function of the Software Development can also be viewed as an Engineering discipline.
+description: Engineering is the practical application of science. Just like Sales Engineering or Quality Engineering, the Management function of the Software Development can also be viewed as an Engineering discipline.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://managementengineering.pro" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: managementengg
